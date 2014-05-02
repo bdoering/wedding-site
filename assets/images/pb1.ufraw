@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UFRaw Version='7'>
+<InputFilename>/run/media/bd/NIKON D200/DCIM/174ND200/DSC_3408.NEF</InputFilename>
+<OutputFilename>/home/bd/src/wedding-site/assets/images/pb1.jpg</OutputFilename>
+<OutputPath>/home/bd/src/wedding-site/assets/images</OutputPath>
+  <WB>Manual WB</WB>
+  <WBFineTuning>0</WBFineTuning>
+  <Temperature>4891</Temperature>
+  <Green>1.119</Green>
+  <ChannelMultipliers>1.7691 1.0000 1.4125 1.0000</ChannelMultipliers>
+  <Lensfun>
+    <LensModel>Tamron, Tamron SP AF 10-24mm F/3.5-4.5 Di II LD Aspherical IF</LensModel>
+    <TCA Index='3rd order polynomial'>
+      <Model Label='3rd order polynomial'>
+        <vr>1.0002846</vr>
+        <vb>1.0003365</vb>
+        <cr>-0.000297</cr>
+        <cb>-0.000080</cb>
+        <br>0.0002700</br>
+        <bb>-0.000064</bb>
+      </Model>
+    </TCA>
+    <Distortion Index='3rd order polynomial'>
+      <Model Label='3rd order polynomial'>
+        <k1>-0.006730</k1>
+      </Model>
+    </Distortion>
+    <LensGeometry>Rectilinear</LensGeometry>
+  </Lensfun>
+<Exposure>1.750000</Exposure>
+<OutputType>4</OutputType>
+<CreateID>1</CreateID>
+<ProgressiveJPEG>1</ProgressiveJPEG>
+<Compression>89</Compression>
+<BaseCameraCurve Current='yes'>
+</BaseCameraCurve>
+<LinearCurve Current='yes'>
+</LinearCurve>
+<MatrixInputProfile Current='yes'>Color matrix
+</MatrixInputProfile>
+<sRGBOutputProfile Current='yes'>sRGB
+</sRGBOutputProfile>
+<Make>NIKON</Make>
+<Model>D200</Model>
+<Timestamp>Sun Apr 27 11:20:50 2014</Timestamp>
+<Orientation>0</Orientation>
+<ISOSpeed>125</ISOSpeed>
+<Shutter>1/50 s</Shutter>
+<Aperture>F4.5</Aperture>
+<FocalLength>24.0 mm</FocalLength>
+<FocalLength35>36.0 mm</FocalLength35>
+<Lens>Nikon AF-S DX Nikkor 10-24mm f/3.5-4.5G ED</Lens>
+<EXIFSource>exiv2 0.23</EXIFSource>
+<Crop>1516 293 3824 2601</Crop>
+<AspectRatio>1.000000</AspectRatio>
+<Rotation>0.000000</Rotation>
+<Log>
+ufraw_open: w:3900 h:2616 curvesize:4160
+EXIF data read using exiv2, buflen 7454
+Warning: Exif tag Exif.NikonPreview.JPEGInterchangeFormatLength not encoded
+Warning: Exif IFD NikonPreview not encoded
+Warning: Exif tag Exif.Photo.MakerNote not encoded
+
+Scaling with darkness 0, saturation 4028, and
+multipliers 1.000000 0.521385 0.657841 0.521385
+Loading NIKON D200 image from /run/media/bd/NIKON D200/DCIM/174ND200/DSC_3408.NEF ...
+Black: 0, Maximum: 4028
+Bilinear interpolation...
+VNG interpolation...
+Resetting Exif.Image.Orientation from &apos;1&apos; to &apos;1&apos;
+
+</Log>
+</UFRaw>

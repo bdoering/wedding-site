@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content>
+    <meta name="author" content="Perrine Bonvalet, Björn Döring">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Perrine &amp; Björn 2014  — Accomodation at/near the country guest house (party location) </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+      
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="../../assets/css/wedding.css" rel="stylesheet">
+
+    <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script> -->
+    <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+
+    <!-- MapBox -->
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" rel="stylesheet" />
+    <script src="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js"></script>
+    <link href="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css" rel="stylesheet" />
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+	      
+              <a class="navbar-brand" href="../../en/index.html"><img src="../../assets/images/rings_25.png" alt="Perrine &amp; Björn" width="25" height="25" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="../../en/pages/program.html" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+		    <li><a href="../../en/pages/program.html">Overview</a></li>
+		    <li class="dropdown-header">Friday (Aug. 22)</li>
+                    <li><a href="../../en/pages/program.html#beergarden">Beer garden</a></li>
+		    <li class="dropdown-header">Saturday (Aug. 23)</li>
+                    <li><a href="../../en/pages/program.html#ceremony">Wedding ceremony</a></li>
+		    <li><a href="../../en/pages/program.html#party">Wedding party</a></li>
+		    <li class="dropdown-header">Sunday (Aug. 24)</li>
+		    <li><a href="../../en/pages/program.html#brunch">Brunch</a></li>
+                  </ul>
+                </li>
+                <li><a href="../../en/pages/accommodation.html">Accommodation</a></li>
+		<li><a href="../../en/pages/riddle.html">Riddle</a></li>
+		<li><a href="../../en/pages/giftideas.html">Gift ideas</a></li>
+		<li><a href="../../en/pages/contact.html">Contact</a></li>
+              </ul>
+	      <p class="navbar-text navbar-right">
+	      	<a href="../../en/pages/accommodation.html">en</a> <a href="../../fr/pages/accommodation.html">fr</a> <a href="../../de/pages/accommodation.html">de</a> 
+	      </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container simple-content">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 id="accommodation">Accommodation</h1>
+<p>Are you staying for the night from Saturday to Sunday? Are you possibly also looking for some accommodation for Friday night?</p>
+<p>This is the situation: The party is at the <a href="#berg">Landgasthof Berg</a>, where we have reserved all available rooms. Unfortunately, the number of beds is not sufficient to accommodate everybody. Therefore, we have also pre-reserved some rooms at the nearby <a href="#alm">Sprengenöder Alm</a>. For the more adventurous, there are also <a href="#indoor">indoor camping</a> and <a href="#outdoor">outdoor camping</a> possibilities.</p>
+<p>Besides these options, there are of course other hotels/hostels available in the neighborhood. In this case, please organize them yourself.</p>
+<div id="map">
+
+</div>
+<script>
+    var map = L.mapbox.map('map', 'bdoering.i4g3o5jd').setView([47.86309684355745, 11.381471157073975], 9);
+    
+// var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/bdoering.i4g3o5jd/{z}/{x}/{y}.png', {
+//     attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+// });
+// var map = L.map('map')
+//     .addLayer(mapboxTiles)
+//     .setView([47.86309684355745, 11.381471157073975], 9);
+L.control.fullscreen().addTo(map);
+</script>
+
+
+<h2 id="berg">Landgasthof Berg (Party Location)</h2>
+<p>   <a href="http://www.landgasthof-berg.de">http://www.landgasthof-berg.de</a></p>
+<p>   Schmiedberg 2<br />   82547 Berg bei Eurasburg</p>
+<p>This is our party location. The guest house has 9 rooms (mostly double rooms, some larger ones), which are all reserved for us.</p>
+<p>A double room costs about 90 € a night.</p>
+<p>If you would like to stay here, please get in contact with us so that we can coordinate room allocations.</p>
+<h2 id="alm">Sprengenöder Alm</h2>
+<p>   <a href="http://www.sprengenoeder-alm.de/">http://www.sprengenoeder-alm.de/</a></p>
+<p>   Sprengenöd 4<br />   82547 Eurasburg</p>
+<p>The Sprengenöder Alm is not even ten minutes away by car. We have pre-reserved several rooms there, which might provide a more quiet stay for Saturday night!</p>
+<p>Double rooms cost 80 € per night, single rooms come at 50 € per night.</p>
+<p>If you would like to stay there, please get in contact with us so that we can coordinate room allocations.</p>
+<h2 id="indoor">Indoor Camping</h2>
+<p>If you like company then we might have the right option for you! We have booked the two available large “family rooms” in the <a href="#berg">Landgasthof Berg</a> for people who might be comfortable enough to sleep on the ground.</p>
+<p>Should it be difficult for you to bring an air mattress then we can certainly help to organize one for you.</p>
+<h2 id="outdoor">Outdoor Camping</h2>
+<p>And then there is the option for the outdoor lovers! The owners of the <a href="#berg">Landgasthof Berg</a> have allowed us to put up tents in the garden if we want to.</p>
+<p>Given the limited number of rooms available, we would appreciate if somebody would consider this option. You will get an extra treat for next morning’s brunch!</p>
+<p>Interested? Let us know! If you need a tent, we might be able to organize one.</p>
+    </div>
+  </div>
+</div>
+    
+
+
+    <div class="container">
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2014 Perrine Bonvalet &amp; Björn Döring. Last update: 2014-05-01</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content>
+    <meta name="author" content="Perrine Bonvalet, Björn Döring">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Perrine &amp; Björn 2014  — Unterkünfte in/beim Landgasthof Berg (Ort der Feier) </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+      
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="../../assets/css/wedding.css" rel="stylesheet">
+
+    <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script> -->
+    <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+
+    <!-- MapBox -->
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" rel="stylesheet" />
+    <script src="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js"></script>
+    <link href="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css" rel="stylesheet" />
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+	      
+              <a class="navbar-brand" href="../../de/index.html"><img src="../../assets/images/rings_25.png" alt="Perrine &amp; Björn" width="25" height="25" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="../../de/pages/program.html" class="dropdown-toggle" data-toggle="dropdown">Programm<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+		    <li><a href="../../de/pages/program.html">Kurzfassung</a></li>
+		    <li class="dropdown-header">Freitag (22.8.)</li>
+                    <li><a href="../../de/pages/program.html#beergarden">Biergarten</a></li>
+		    <li class="dropdown-header">Samstag (23.8.)</li>
+                    <li><a href="../../de/pages/program.html#ceremony">Standesamtliche Trauung</a></li>
+		    <li><a href="../../de/pages/program.html#party">Hochzeitsfeier</a></li>
+		    <li class="dropdown-header">Sunday (24.8.)</li>
+		    <li><a href="../../de/pages/program.html#brunch">Brunch</a></li>
+                  </ul>
+                </li>
+                <li><a href="../../de/pages/accommodation.html">Unterkunft</a></li>
+		<li><a href="../../de/pages/riddle.html">Rätsel</a></li>
+		<li><a href="../../de/pages/giftideas.html">Geschenkideen</a></li>
+		<li><a href="../../de/pages/contact.html">Kontakt</a></li>
+              </ul>
+	      <p class="navbar-text navbar-right">
+	      	<a href="../../en/pages/accommodation.html">en</a> <a href="../../fr/pages/accommodation.html">fr</a> <a href="../../de/pages/accommodation.html">de</a> 
+	      </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container simple-content">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 id="unterkünfte">Unterkünfte</h1>
+<p>Bleibt ihr nach der Feier in der Nacht von Samstag auf Sonntag noch da? Sucht ihr vielleicht auch eine Unterkunft für Freitagnacht?</p>
+<p>Also: Die Feier findet im <a href="#berg">Landgasthof Berg</a> statt. Dort haben wir alle Gästezimmer für euch vorab reserviert. Leider ist das Gästehaus zu klein, um jeden aufzunehmen. Deshalb haben wir auch in der nahegelegenen <a href="#alm">Sprengenöder Alm</a> einige Zimmer reserviert. Für die abenteuerlustigen gibt es auch noch die Optionen <a href="#indoor">Zimmer-Camping</a> und <a href="#outdoor">Zelt-Camping</a>!</p>
+<p>Daneben bietet die Region natürlich noch weitere zahlreiche Optionen. Diese würdet ihr dann selbst organisieren.</p>
+<div id="map">
+
+</div>
+<script>
+    var map = L.mapbox.map('map', 'bdoering.i4g3o5jd').setView([47.86309684355745, 11.381471157073975], 9);
+L.control.fullscreen().addTo(map);
+</script>
+
+
+<h2 id="berg">Landgasthof Berg (Hochzeitsfeier)</h2>
+<p>   <a href="http://www.landgasthof-berg.de">http://www.landgasthof-berg.de</a></p>
+<p>   Schmiedberg 2<br />   82547 Berg bei Eurasburg</p>
+<p>Hier findet die Hochzeitsfeier statt, es könnte nachts also länger laut bleiben. Der Gasthof hat 9 Gästezimmer (hauptsächlich Doppelzimmer, aber auch zwei größere Zimmer), die alle für uns reserviert sind.</p>
+<p>Ein Doppelzimmer kostet dort rund 90 € die Nacht.</p>
+<p>Falls ihr dort unterkommen möchtet, sagt uns bitte Bescheid. Wir koordinieren dann die Belegung und sprechen mit dem Gastwirt.</p>
+<h2 id="alm">Sprengenöder Alm</h2>
+<p>   <a href="http://www.sprengenoeder-alm.de/">http://www.sprengenoeder-alm.de/</a></p>
+<p>   Sprengenöd 4<br />   82547 Eurasburg</p>
+<p>Die Sprengenöder Alm ist mit dem Auto keine 10 Minuten vom <a href="#berg">Landgasthof Berg</a> entfernt. Auch für die Alm haben wir einige (wahrscheinlich ruhigere!) Zimmer vorab reserviert.</p>
+<p>Doppelzimmer kosten 80 € pro Nacht, Einzelzimmer kosten 50 €.</p>
+<p>Falls ihr dort unterkommen möchtet, sagt uns bitte Bescheid. Wir koordinieren dann die Belegung und sprechen mit dem Gastwirt.</p>
+<h2 id="indoor">Zimmer-Camping</h2>
+<p>Mögt ihr Gesellschaft? Dann haben wir genau das richtige für euch! Wir haben die zwei größten “Familienzimmer” im <a href="#berg">Landgasthof Berg</a> bereits für Leute gebucht, die auch eine Nacht auf dem Boden nicht abschreckt.</p>
+<p>Solltet ihr nur schwer eine Luftmatratze mitbringen können, sagt Bescheid. Wir können da sicherlich was organisieren!</p>
+<h2 id="outdoor">Outdoor Camping</h2>
+<p>Und dann gibt es da noch die Option für die Naturliebhaber! Der Wirt des <a href="#berg">Landgasthof Berg</a> hat uns erlaubt, im Garten Zelte aufzubauen, falls wir das wollen.</p>
+<p>Da es im Landgasthof selbst nur eine begrenzte Anzahl an Schlafplätzen gibt, würden wir uns freuen, falls sich jemand für diese Option begeistern kann. Auf jeden Fall gibt’s dann eine Belohnung beim Brunch am Sonntag!</p>
+<p>Haben wir euer Interesse geweckt? Sagt Bescheid! Falls ihr noch ein Zelt braucht, können wir hoffentlich eins organisieren.</p>
+    </div>
+  </div>
+</div>
+    
+
+
+    <div class="container">
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Nach oben</a></p>
+        <p>© 2014 Perrine Bonvalet &amp; Björn Döring. Letzte Aktualisierung: 2014-05-02</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
+
+
+
